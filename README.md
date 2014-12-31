@@ -4,7 +4,7 @@ Derby app plugin to add debugging utility functions.
 
 ## Usage
 
-```
+``` javascript
 app.use(require('derby-debug'));
 ```
 
@@ -29,7 +29,7 @@ Returns a command that can be entered into the console to find the same componen
 5. Paste the command into the console and press Enter
 6. Now you can inspect the component, get values from it, or add debugging commands
 
-`copy()` and `$0` are features of the Chrome console. Naturally, `copy()` copies a value to the clipboard, and `$0` returns the node that is currently selected in the Elements panel.
+`copy()` and `$0` are features of the Chrome console. Naturally, `copy()` copies a value to the clipboard. `$0` returns the node that is currently selected in the Elements panel.
 
 ## Model methods
 
@@ -39,7 +39,7 @@ This method adds an event listener that console.logs out the arguments of any mo
 
 For example, try:
 
-```
+``` javascript
 MODEL.logEvents();
 MODEL.logEvents('_page');
 app.findComponent('my-component:index').model.logEvents();
