@@ -1,0 +1,19 @@
+{
+  "name": "derby-debug",
+  "version": "0.0.0",
+  "description": "Derby app plugin to add debugging utility functions",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derbyjs/derby-debug.git"
+  },
+  "keywords": [
+    "derby",
+    "debugging"
+  ],
+  "author": "Nate Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derbyjs/derby-debug/issues"
+  }
+}
