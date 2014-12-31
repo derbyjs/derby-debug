@@ -1,6 +1,6 @@
 {
   "name": "derby-debug",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Derby app plugin to add debugging utility functions",
   "main": "index.js",
   "repository": {
