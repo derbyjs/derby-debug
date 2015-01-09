@@ -7,7 +7,7 @@ module.exports = function(app) {
     app.componentCommand = componentCommand;
     app.derby.Model.prototype.logEvents = logEvents;
   });
-}
+};
 
 function findComponent(name, index) {
   if (index == null) index = 0;
@@ -20,7 +20,7 @@ function findComponent(name, index) {
     }
     index--;
   }
-};
+}
 
 function componentCommand(comment) {
   var count = 0;
@@ -32,9 +32,9 @@ function componentCommand(comment) {
     }
     if (node.data === comment.data) count++;
   }
-};
+}
 
 function logEvents(path) {
   if (path == null) path = '';
   this.on('all', path + '**', console.log.bind(console));
-};
+}
