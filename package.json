@@ -15,5 +15,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/derbyjs/derby-debug/issues"
+  },
+  "homepage": "https://github.com/derbyjs/derby-debug#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
