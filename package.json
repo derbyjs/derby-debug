@@ -12,6 +12,18 @@
     "debugging"
   ],
   "author": "Nate Smith",
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "curly": 0,
+      "no-use-before-define": [2, "nofunc"],
+      "quotes": [2, "single"],
+      "strict": 0
+    }
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/derbyjs/derby-debug/issues"
